@@ -2,8 +2,7 @@ from config import*
 from model import *
 import matplotlib.pyplot as plt
 import numpy as np
-#Will have to setup a prediction pipeline first
-#I want that I input, the test image's path, then make a prediction on it, show the scores and the matplotlib graph as well
+
 def pred_function():
     path = str(input("Enter the path for the image: \n"))
 
